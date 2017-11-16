@@ -91,15 +91,21 @@ var ProfilePage = (function () {
     function ProfilePage(navCtrl) {
         this.navCtrl = navCtrl;
     }
+    ProfilePage.prototype.onSave = function () {
+        console.log(this.temperature);
+        console.log(this.lighting);
+        console.log(this.humidity);
+    };
     return ProfilePage;
 }());
 ProfilePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-profile',template:/*ion-inline-start:"C:\Users\Filene\Desktop\dev_Raphael\IssuesAuthenticatorJararacucu\issuesauthenticatorcode\src\pages\profile\profile.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Preferências</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding class="bg-style">\n\n  <img src="wifi.png" height="200" width="200" class="img-center"> \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Filene\Desktop\dev_Raphael\IssuesAuthenticatorJararacucu\issuesauthenticatorcode\src\pages\profile\profile.html"*/
+        selector: 'page-profile',template:/*ion-inline-start:"/home/joao/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/src/pages/profile/profile.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Preferências</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="bg-style">\n  <ion-list>       \n    <ion-item>\n      <ion-label floating>TEMPERATURA (C°)</ion-label>\n      <ion-input type="number" [(ngModel)]="temperature"></ion-input>\n    </ion-item>\n    <br>\n    <ion-item>\n      <ion-label floating>ILUMINAÇÃO (%)</ion-label>\n      <ion-input type="number" [(ngModel)]="lighting"></ion-input>\n    </ion-item>\n    <br>\n    <ion-item>\n      <ion-label floating>UMIDADE (%)</ion-label>\n      <ion-input type="number" [(ngModel)]="humidity"></ion-input>\n    </ion-item>\n  </ion-list>\n  <button ion-button block class="save-button" (click)="onSave()">SALVAR</button>\n</ion-content>\n'/*ion-inline-end:"/home/joao/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/src/pages/profile/profile.html"*/
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object])
 ], ProfilePage);
 
+var _a;
 //# sourceMappingURL=profile.js.map
 
 /***/ }),
