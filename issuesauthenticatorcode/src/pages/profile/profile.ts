@@ -7,6 +7,10 @@ import { NavController } from 'ionic-angular';
 })
 
 export class ProfilePage {
+	public temperature;
+	public lighting;
+	public humidity;
+	
   constructor(public navCtrl: NavController) {
   }
 
