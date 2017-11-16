@@ -7,6 +7,12 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="bg-style">
-  <img src="wifi.png" height="200" width="200" class="img-center">
+<ion-content>
+  <form action="#">
+		<p><input type="text" placeholder="Enter Username" id="username" required></p>
+		<p><input type="password" placeholder="Enter Password" id="password" required></p>
+		<button class="buttonLogin" type="submit">Login</button>
+		<p><a href="#">Forgot your password?</a></p>
+		<a id="forgot" (click)="irParaPaginaPrincipal()">Pular</a>
+	</form>
 </ion-content>
