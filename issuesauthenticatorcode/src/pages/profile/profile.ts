@@ -11,12 +11,11 @@ export class ProfilePage {
 	public lighting;
 	public humidity;
 	
-  constructor(public navCtrl: NavController) {
+  constructor(/*public navCtrl: NavController*/) {
   }
 
   onSave(){
     console.log(this.temperature);
     console.log(this.lighting);
-    console.log(this.humidity);
   }
 }
