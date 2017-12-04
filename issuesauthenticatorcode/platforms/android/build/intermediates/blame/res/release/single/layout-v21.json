@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.2/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.2/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.2/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.2/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

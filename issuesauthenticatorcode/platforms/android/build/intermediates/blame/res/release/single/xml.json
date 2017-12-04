@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/res/merged/release/xml/config.xml",
+        "source": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/res/merged/release/xml/authenticator.xml",
+        "source": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/res/xml/authenticator.xml"
+    },
+    {
+        "merged": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/build/intermediates/res/merged/release/xml/syncadapter.xml",
+        "source": "/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/platforms/android/res/xml/syncadapter.xml"
+    }
+]
