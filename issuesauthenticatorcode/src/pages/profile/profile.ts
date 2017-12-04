@@ -17,5 +17,6 @@ export class ProfilePage {
   onSave(){
     console.log(this.temperature);
     console.log(this.lighting);
+    console.log(this.humidity); 
   }
 }
