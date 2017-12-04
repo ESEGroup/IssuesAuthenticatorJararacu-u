@@ -15,8 +15,8 @@
     </ion-item>
     <br>
     <ion-item>
-      <ion-label floating>ILUMINAÇÃO (%)</ion-label>
-      <ion-input type="number" [(ngModel)]="lighting" max="100" min="0"></ion-input>
+      <ion-label floating>ILUMINAÇÃO (lux)</ion-label>
+      <ion-input type="number" [(ngModel)]="lighting" max="5000" min="0"></ion-input>
     </ion-item>
   </ion-list>
   <button ion-button block class="save-button" (click)="onSave()">SALVAR</button>
