@@ -100,12 +100,13 @@ var ProfilePage = (function () {
     ProfilePage.prototype.onSave = function () {
         console.log(this.temperature);
         console.log(this.lighting);
+        console.log(this.humidity);
     };
     return ProfilePage;
 }());
 ProfilePage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-profile',template:/*ion-inline-start:"/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/src/pages/profile/profile.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Preferências</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="bg-style">\n  <ion-list>       \n    <ion-item>\n      <ion-label floating>TEMPERATURA (C°)</ion-label>\n      <ion-input type="number" [(ngModel)]="temperature" max="35" min="10"></ion-input>\n    </ion-item>\n    <br>\n    <ion-item>\n      <ion-label floating>ILUMINAÇÃO (%)</ion-label>\n      <ion-input type="number" [(ngModel)]="lighting" max="100" min="0"></ion-input>\n    </ion-item>\n  </ion-list>\n  <button ion-button block class="save-button" (click)="onSave()">SALVAR</button>\n</ion-content>\n'/*ion-inline-end:"/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/src/pages/profile/profile.html"*/
+        selector: 'page-profile',template:/*ion-inline-start:"/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/src/pages/profile/profile.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>Preferências</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="bg-style">\n  <ion-list>       \n    <ion-item>\n      <ion-label floating>TEMPERATURA (C°)</ion-label>\n      <ion-input type="number" [(ngModel)]="temperature" max="35" min="10"></ion-input>\n    </ion-item>\n    <br>\n    <ion-item>\n      <ion-label floating>ILUMINAÇÃO (lux)</ion-label>\n      <ion-input type="number" [(ngModel)]="lighting" max="5000" min="0"></ion-input>\n    </ion-item>\n    <br> \n    <ion-item> \n      <ion-label floating>UMIDADE (%)</ion-label> \n      <ion-input type="number" [(ngModel)]="humidity" max="100" min="0"></ion-input> \n    </ion-item> \n  </ion-list>\n  <button ion-button block class="save-button" (click)="onSave()">SALVAR</button>\n</ion-content>\n'/*ion-inline-end:"/home/jonathan-alcantara/Documents/Projects/Development/IssuesAuthenticatorJararacucu/issuesauthenticatorcode/src/pages/profile/profile.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], ProfilePage);
